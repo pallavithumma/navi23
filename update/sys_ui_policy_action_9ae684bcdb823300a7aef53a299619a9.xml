@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>short_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 09:19:52</sys_created_on>
+        <sys_id>9ae684bcdb823300a7aef53a299619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="visitors" source="x_366625_visitors">942b1864db063300a7aef53a299619af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="visitors">942b1864db063300a7aef53a299619af</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9ae684bcdb823300a7aef53a299619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 09:19:52</sys_updated_on>
+        <table>x_366625_visitors_visitor</table>
+        <ui_policy display_value="anything  that describes you">0e45847cdb823300a7aef53a2996193a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

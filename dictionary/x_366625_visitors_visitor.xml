@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="visitor" max_length="40" name="x_366625_visitors_visitor" sizeclass="8" type="collection">
+        <element label="Address" max_length="40" name="address" reference="sys_report_map_source_mappings" type="reference"/>
+        <element label="email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="improvement suggestion" max_length="40" name="improvement_suggestion" type="string"/>
+        <element label="In date" max_length="40" name="in_date" type="glide_date"/>
+        <element label="In time" max_length="40" name="in_time" type="glide_time"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Out date" max_length="40" name="out_date" type="glide_date"/>
+        <element label="Out time" max_length="40" name="out_time" type="glide_time"/>
+        <element label="phone" max_length="40" name="phone" type="integer"/>
+        <element label="purpose of visit" max_length="40" name="purpose_of_visit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="visitor rating" max_length="40" name="visitor_rating" type="string"/>
+        <element label="whom to meet" max_length="40" name="whom_to_meet" type="string"/>
+    </element>
+</database>

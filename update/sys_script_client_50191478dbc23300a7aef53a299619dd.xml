@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test onchange </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var vtype=g_form.getValue('address');
+	alert(vtype);
+	if(vtype=="my")
+		{
+			g_form.setVisible('In date',true);
+		}
+	else
+		{
+			g_form.setVisible('In date',false);
+			
+	
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 10:41:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50191478dbc23300a7aef53a299619dd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test onchange </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="visitors" source="x_366625_visitors">942b1864db063300a7aef53a299619af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="visitors">942b1864db063300a7aef53a299619af</sys_scope>
+        <sys_update_name>sys_script_client_50191478dbc23300a7aef53a299619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 14:06:21</sys_updated_on>
+        <table>x_366625_visitors_visitor</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
